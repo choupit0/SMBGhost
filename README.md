@@ -14,15 +14,18 @@ For example, 1644 hosts were scanned in 32 seconds:
 ![Example](MassSMBCheck.png)
 
 Note, https://github.com/choupit0/MassVulScan could help you before to find all the hosts on your LAN with SMB port open:
-
+````
 sudo ./MassVulScan.sh -f <file with subnets and/or hostnames> -i -ns -k
-
+````
 ## Usage
-`python3 scanner.py <IP>`
-
+```
+python3 scanner.py <IP>
+```
 Or for multiple hosts:
-
-`./MassSMBCheck.sh <hosts file (IP)> <number of process>`
+```
+chmod +x MassSMBCheck.sh
+./MassSMBCheck.sh <hosts file (IP)> <number of process>
+````
 
 ## Workarounds
 [ADV200005 | Microsoft Guidance for Disabling SMBv3 Compression](https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/adv200005)
