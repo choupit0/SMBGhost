@@ -15,7 +15,9 @@ For example, 1644 hosts were scanned in 32 seconds:
 
 ## Usage
 `python3 scanner.py <IP>`
+
 Or for multiple hosts:
+
 `./MassSMBCheck.sh <hosts file (IP)> <number of process>`
 
 ## Workarounds
