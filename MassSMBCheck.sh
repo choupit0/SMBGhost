@@ -3,7 +3,8 @@
 #############################################################################################################################
 #
 # Script Name    : MassSMBCheck.sh
-# Description    : This script launching scanning process in parallel to find potential vulnerables hosts
+# Description    : This script launching scanning process in parallel to find potential vulnerables hosts for CVE-2020-079
+#                  if no patching applied.
 # Author         : https://github.com/choupit0
 # Site           : https://hack2know.how/
 # Date           : 20200313
